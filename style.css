@@ -1,0 +1,164 @@
+body{
+    box-sizing: border-box;
+    margin: 0px 0px;
+}
+.info1{
+    display: block;
+    margin: 0.1rem 5rem;
+    text-align: center;
+    border-bottom-style: dashed;
+    border-bottom-color: darkblue;
+}
+.info1 h1{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+.info1 h5{
+    font-size: 1.5rem;
+    padding: auto;
+}
+@media screen and (max-width:768px) {
+    .info1{
+        display: block;
+        margin: 0.1rem 5rem;
+        text-align: center;
+        border-bottom-style: dashed;
+        border-bottom-color: darkblue;
+    }  
+}
+@media screen and (max-width:414px) {
+    .info1{
+        display: block;
+        margin: 0.1rem 5rem;
+        text-align: center;
+        border-bottom-style: dashed;
+        border-bottom-color: darkblue;
+    }  
+}
+@media screen and (max-width:360px) {
+    .info1{
+        display: block;
+        margin: 0.1rem 5rem;
+        text-align: center;
+        border-bottom-style: dashed;
+        border-bottom-color: darkblue;
+    } 
+    .info1 h1{
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    .info1 h5{
+        font-size: 0.8rem;
+        padding: auto;
+    } 
+}
+.name{
+    color:darkblue;
+}
+
+/*second section start*/
+
+.info2{
+    margin: 0.1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom-style: dashed;
+    border-bottom-color: darkblue;
+    text-align: justify;
+}
+.content-box{
+    display: block;
+}
+.left-date{
+    color: lightgray;
+    font-size: 1.2rem;
+    float: left;
+}
+.content{
+    margin-left: 15rem;
+}
+.content-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    list-style: disc;
+}
+    
+.info3{
+    margin: 0.1rem 5rem;
+}
+@media screen and (max-width:768px){
+    .info2 .info3{
+        margin: 0.1rem 0.1rem;
+        display: flex;
+        flex-direction: column;
+        border-bottom-style: dashed;
+        border-bottom-color: darkblue;
+        text-align: justify;  
+    }
+}
+@media screen and (max-width:414px) {
+    .info2 .info3{
+        margin: 0.1rem 0rem;
+        display: flex;
+        flex-direction: column;
+        border-bottom-style: dashed;
+        border-bottom-color: darkblue;
+        text-align: justify;  
+    }
+    .left-date{
+        color: lightgray;
+        font-size: 0.6rem;
+        float: left;
+    }
+    .content{
+        margin-left: 0.1rem;
+        font-size: 0.6rem;
+    }
+    .content-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 0.6rem;
+    }
+    li{
+        list-style: disc;
+    }
+    .name{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:360px) {
+    .info2 .info3{
+        margin: 0.1rem 0rem;
+        display: flex;
+        flex-direction: column;
+        border-bottom-style: dashed;
+        border-bottom-color: darkblue;
+        text-align: justify;  
+    }
+    .left-date{
+        color: lightgray;
+        font-size: 0.6rem;
+        float: left;
+    }
+    .content{
+        margin-left: 0.1rem;
+        font-size: 0.6rem;
+    }
+    .content-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 0.6rem;
+    }
+    li{
+        list-style: disc;
+    }
+    .name{
+        font-size: 0.8rem;
+    }
+}
+
